@@ -9,7 +9,7 @@ import requests, zipfile, os, sys, time
 dir_path = os.path.dirname(os.path.realpath(__file__))
 destDir = r"C:\Student\GISDay_2021"
 file_to_unzip = dir_path + os.sep + "GISDay2021_Python.zip"
-download_file = 'https://rockne.net/files-open/VC_Python.zip'
+download_file = 'https://github.com/rrudolph/gis_day_2021/blob/main/GIS_Day_2021.zip'
 
 welcome_text = """
     _____   ________________    __    __    _____   ________         
