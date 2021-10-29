@@ -15,7 +15,7 @@ def download_url(url, save_path, chunk_size=128):
 
 # set vars
 dir_path = os.path.dirname(os.path.realpath(__file__))
-destDir = r"C:\Student\GISDay_2021_test"
+destDir = r"C:\Student\GISDay_2021"
 file_to_unzip = os.path.join(dir_path, "GISDay2021_Python.zip")
 download_file = 'https://github.com/rrudolph/gis_day_2021/raw/main/GIS_Day_2021.zip'
 
